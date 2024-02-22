@@ -1,0 +1,88 @@
+body{
+	background-color: white;
+	font-size: 16px;
+}
+
+h1,h2{
+	color: #5E3A2C
+}
+h1{
+	font-family: Harlow Solid Italic;
+}
+
+h2{
+	font-weight: bolder; 
+	font-family: Bodoni MT Black;
+}
+
+p{
+	font-family: book antiqua;
+	color: #463f3a;
+}
+
+a{
+	text-decoration: none;
+	color: #6d2e46 ;
+}
+
+a:hover{
+	color:#a26769 ;
+}
+
+.container{
+     width: 700px;
+     margin: 40px auto
+ }
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-purple{
+ 	 background-color: #DDCFBC;
+     padding: 40px;
+     margin: 20px 0px;
+     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+     border-radius: 5px;
+     text-align: center;
+ }
+.img-circle{
+	border-radius: 50%;
+}
+.btn-brown{
+	background-color: #5E3A2C ;
+	color:white ;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+.btn-brown:hover {
+	background-color: #f0ead2;
+	color: #a26769;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: #774936;
+}
+.list-inline i:hover{
+	color: #c38e70;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
